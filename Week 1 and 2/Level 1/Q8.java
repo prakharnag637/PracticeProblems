@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Q8
+{
+    public static void main(String[] args)
+    {
+        Scanner input  = new Scanner(System.in);
+        double km;
+        System.out.println("Enter the disctance in km");
+        km = input.nextInt();
+        double miles = km / 1.6f;
+        System.out.println("The total miles is " + miles + " for the given " + " km");
+    }
+}
